@@ -86,9 +86,9 @@ local Window = Rayfield:CreateWindow({
                     for i,plr in pairs(plrs) do
                         if plrs then
                             
-                            createwarning("TPAura","Player Found, Killing...", 6)
+                           print("found player")
                             if not plr then
-                            createwarning("TPAura","Killed Player", 6)
+                          
                             end
                         cam.CameraType = Enum.CameraType.Fixed
                             
